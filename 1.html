@@ -56,6 +56,10 @@
             margin: 60px 84px;
         }
 
+        main {
+            margin-bottom: 10vh;
+        }
+
         .left {
             font-size: 1.5rem;
         }
@@ -106,25 +110,31 @@
         .secondSection {
             max-width: 80vw;
             margin: auto;
-            height: 80vh;
+            /* height: 80vh; */
         }
 
         .secondSection h1 {
             font-size: 1.9rem;
+            margin: 10vh 0vh;
         }
 
         .secondSection .box {
-            background: white;
-            width: 77vw;
-            height: 2px;
-            margin: 56px 0;
+            /* background: white; */
+            /* width: 77vw;
+            height: 2px; */
+            /* border: 1px solid red; */
+            margin-bottom: 50vh 0vh;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
         }
 
         .secondSection .vertical {
-            height: 93px;
+            /* height: 93px;
             width: 1px;
             background-color: white;
-            margin: 0 120px;
+            margin: 0 120px; */
         }
 
         .image-top {
@@ -134,19 +144,39 @@
             left: -9px;
         }
 
+        .vertical{
+            display: flex;
+            flex-direction: column;
+        }
+
         .vertical-title {
-            position: relative;
-            top: 75px;
-            width: 150px;
             font-size: 14px;
+            color: white;
+            font-weight: bold;
+            margin: 20px 0px;
+        }
+        .vertical-title span {
+            font-size: 10px;
         }
 
         .vertical-desc {
-            position: relative;
-            top: 86px;
-            color: gray;
-            width: 150px;
             font-size: 9px;
+            color: white;
+            padding: 10px;
+
+        }
+
+        .vertical-line{
+            position: relative;
+            top: 50px;
+            right: 50px;
+            height: 2px;
+            background-color: white;
+        }
+
+        .horizontal-line{
+            height: 20vh;
+            border-left: 2px solid white;
         }
 
         .footer {
@@ -214,25 +244,14 @@
         <section class="secondSection">
             <span class="text-gray">What I have done so far</span>
             <h1>Work Experiences</h1>
+            <div class="vertical-line"></div>
             <div class="box">
                 <div class="vertical">
-                    <img class="image-top" src="developer.png" alt="">
+                    <img class="image-top" src="developer.png"  alt="">
+                    <div class="horizontal-line"></div>
                     <div class="vertical-title">
                         HTML Developer (2010-2012)
                     </div>
-                    <div class="vertical-desc">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Assumenda consequuntur accusantium, animi ullam maxime accusamus quia
-                        corrupti voluptates reprehenderit quas, asperiores maiores optio libero
-                        veritatis provident molestiae, obcaecati est? Voluptate.
-                    </div>
-                </div>
-                <div class="vertical">
-                    <img class="image-top" src="logo5.png" alt="">
-                    <div class="vertical-title">
-                        Software Developer- YouTube
-                    </div>
-                    <span>(2017-2023)</span>
                     <div class="vertical-desc">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         Assumenda consequuntur accusantium, animi ullam maxime
@@ -241,9 +260,81 @@
                         molestiae, obcaecati est? Voluptate.
                     </div>
                 </div>
-                <div class="vertical"></div>
-                <div class="vertical"></div>
-                <div class="vertical"></div>
+                <div class="vertical">
+                    <img class="image-top" src="logo5.png" alt="">
+                    <div class="horizontal-line"></div>
+                    <div class="vertical-title">
+                        Software Developer- YouTube <span>(2017-2023)</span>
+                    </div>
+                    
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Assumenda consequuntur accusantium, animi ullam maxime
+                        accusamus quia corrupti voluptates reprehenderit quas,
+                        asperiores maiores optio libero veritatis provident
+                        molestiae, obcaecati est? Voluptate.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="logo4.png" alt="">
+                    <div class="horizontal-line"></div>
+                    <div class="vertical-title">
+                        Software Developer- YouTube <span>(2017-2023)</span>
+                    </div>
+                    
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Assumenda consequuntur accusantium, animi ullam maxime
+                        accusamus quia corrupti voluptates reprehenderit quas,
+                        asperiores maiores optio libero veritatis provident
+                        molestiae, obcaecati est? Voluptate.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="logo3.png" alt="">
+                    <div class="horizontal-line"></div>
+                    <div class="vertical-title">
+                        Software Developer- YouTube <span>(2017-2023)</span>
+                    </div>
+                    
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Assumenda consequuntur accusantium, animi ullam maxime
+                        accusamus quia corrupti voluptates reprehenderit quas,
+                        asperiores maiores optio libero veritatis provident
+                        molestiae, obcaecati est? Voluptate.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="logo2.png" alt="">
+                    <div class="horizontal-line"></div>
+                    <div class="vertical-title">
+                        Software Developer- YouTube <span>(2017-2023)</span>
+                    </div>
+                    
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Assumenda consequuntur accusantium, animi ullam maxime
+                        accusamus quia corrupti voluptates reprehenderit quas,
+                        asperiores maiores optio libero veritatis provident
+                        molestiae, obcaecati est? Voluptate.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="logo1.png" alt="">
+                    <div class="horizontal-line"></div>
+                    <div class="vertical-title">
+                        Software Developer- YouTube <span>(2017-2023)</span>
+                    </div>
+                    
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Assumenda consequuntur accusantium, animi ullam maxime
+                        accusamus quia corrupti voluptates reprehenderit quas,
+                        asperiores maiores optio libero veritatis provident
+                        molestiae, obcaecati est? Voluptate.
+                    </div>
+                </div>
             </div>
         </section>
     </main>
